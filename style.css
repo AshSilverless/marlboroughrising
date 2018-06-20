@@ -7,11 +7,11 @@ Template: enfold
 
 <<<<<<< HEAD
 =======
-.arrow-down {
+.sl-arrow-down {
 	position: relative;
 }
 
-.arrow-down:after {
+.sl-arrow-down:after {
     content: '';
     position: absolute;
     bottom: 0;
