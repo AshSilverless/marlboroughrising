@@ -1,0 +1,429 @@
+/*
+Theme Name: Marlborough Rising
+Template: enfold
+*/
+
+/* ===== GLOBAL ===== */
+
+<<<<<<< HEAD
+=======
+.arrow-down {
+	position: relative;
+}
+
+.arrow-down:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 20px 50px 0 50px;
+    border-color: #faba16 transparent transparent transparent;
+    bottom: -20px;
+    z-index: 99;
+    margin-left: -50px;
+}
+
+>>>>>>> Staging
+h3 {
+	text-transform: uppercase;
+	}
+	
+.main_color h2 {
+    border-left: 5px solid #de6519;
+    padding-left: 10px;
+    line-height: 2em;	
+}
+
+blockquote {
+    border: none;
+    padding: 0;
+    font-weight: 900;
+}
+
+.constrain-grid {
+	max-width: 1200px;
+	margin:0 auto;
+}
+
+.alternate_color strong {
+	color: #3c3c3c;
+}
+
+/* ===== HEADER ===== */
+
+.header_color .header_bg {
+    background-color: rgba(35, 35, 35, 0.9);
+}
+
+#top .scroll-down-link {
+    margin: 0px 0 20px -40px;
+    animation: none;
+}
+
+.logo img {
+	padding: 10px 0;
+}
+
+nav.main_menu .avia-menu.av_menu_icon_beside {
+    margin-right: 0;
+    border-right-width: 0;
+    }
+
+.av-main-nav li a {
+    max-width: none;
+    text-transform: uppercase;
+}
+
+.av-main-nav li#menu-item-31 {
+    background: #EA4E93;
+    border-bottom: 10px solid #2A275B;
+}
+
+.av-main-nav li#menu-item-31 a{
+    color: white;
+}
+
+#top #wrap_all .social_bookmarks a {
+    color: white;
+}	
+
+/* ===== SUB HERO ===== */
+
+.sub-hero {
+	text-align: center;
+}
+
+.sub-hero h2 {
+    border-color: #ED711F;
+    text-align: center;
+    font-size: 4em;
+    display: inline-block;
+    padding-left: 30px;
+    color: white;   
+}
+
+
+/* ===== HOME ===== */
+
+.leader-home {
+	text-align: center;
+}
+
+.leader-home h2 {
+    color: white;
+    margin: 0;
+    font-size: 20px;	
+    border: none;
+}
+
+.leader-home p {
+    font-size: 36px;
+    color: #2A275B;
+    margin: 15px 0;
+}
+
+.band-call-out h2 {
+    text-align: center;
+    color: #ED711F;
+    padding-bottom: 1em;
+}
+
+.band-card .avia-image-container:nth-of-type(1) img{
+	filter: brightness(30%);
+}
+
+.band-card .avia-image-container:nth-of-type(2) img{
+    border: 10px solid #ffffff63;
+    margin: 1em 0;
+}
+
+.event-meta {
+    text-align: center;
+    border-top: 1px solid #8e8e8e;
+    padding: 1em 0;
+    margin: 2em 0 0em;
+    border-color: #b7b5b0 !important;
+}
+
+.event-meta p {
+    display: inline-block;
+    width: 32%;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 12px;
+    color: #585858;
+}
+
+.event-meta p i {
+    display: block;
+    font-size: 24px;
+    color: #b5b5b5;
+}
+
+.avia_transform.js_active .avia_animated_image .av-display-hotspot .av-permanent-tooltip-single {
+    text-align: center;
+}
+
+.inner_tooltip i {
+	font-size: 24px;
+    margin-right: 5px;
+    color: #e66a1a;	
+}
+
+.av-hotspot-container .av-image-hotspot_inner {
+    background: #ffffff;
+    border: solid 3px #e66818;
+}
+
+/* ===== LINEUP ===== */
+
+.appearance p {
+    border-left: 5px solid #5a9fad;
+    padding-left: 10px;
+    color: #7b7b7b;
+}
+
+.bottom-thick-border {
+	position: relative;
+	}
+
+.bottom-thick-border:after {
+    content: '';
+    position: absolute;
+    width: 60%;
+    height: 10px;
+    margin: 0 auto;
+    background: #e6e6e6;
+    left: 20%;
+    bottom: 10px;
+}
+
+body .small-artists .column-top-margin {
+	margin-top: 0;
+}
+
+.date-heading {
+	padding:3em 0 0;
+}
+
+.venue-heading {
+    padding: 1em 0 0;
+    min-height: 0;
+    position: relative;
+}
+
+.venue-heading h3{
+    border-left: 5px solid #bdbbb4;
+    padding-left: 10px;
+    line-height: 3em;
+    color: #656565;
+}
+
+.lineup-entry.avia-section-small .content {
+	padding: 0;
+}
+
+/* ===== WOO ===== */
+
+.html_visible_cart .cart_dropdown {
+    right: -2px;
+    border: none;
+}
+
+.header_color .cart_dropdown_first .cart_dropdown_link {
+    color: #ffffff;
+    background: #4283c5;
+    border: none;
+}
+
+.woocommerce-tabs.wc-tabs-wrapper,
+.posted_in {
+	display: none !important;
+}
+
+#top .avia-post-nav {
+    display: none;
+}
+
+#top #header_main .av-cart-counter {
+    background-color: transparent;
+    color: #2A275B;
+}
+
+/* ===== FOOTER ===== */
+
+#footer {
+    padding: 20px;
+    z-index: 1;
+}
+
+#footer .widget {
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+#footer .widget img{
+    width: 95px;
+}
+
+#top .widget_nav_menu #menu-footer-social li {
+    font-size: 24px;
+    display: inline-block;
+    line-height: 70px;
+    margin-left: 5px;
+    text-align: right;
+}
+
+#top #footer .widget ul#menu-footer-social {
+    text-align: right;
+}
+
+#scroll-top-link.avia_pop_class {
+    left: 50%;
+    margin-left: -25px;
+    bottom: 20px;
+}
+
+body #scroll-top-link.avia_pop_class {
+    background: url(/wp-content/uploads/2018/06/MR-Up-arrow.png);
+    background-size: contain;
+    background-color: transparent !important;
+    border: none !important;
+    opacity:1;
+}
+
+#scroll-top-link:before {
+	display: none;
+	}
+
+body #scroll-top-link.avia_pop_class:hover {
+    background-color: white !important;
+    border-radius: 50%;
+    border: 3px solid white !important;
+    }
+
+/* ===== MQ ===== */
+
+@media only screen and (max-width: 600px) {
+
+#top .av_header_glassy.av_header_transparency .header_bg {
+    background-color: rgba(35, 35, 35, 0.9);
+    opacity: 1;
+}
+
+.responsive #top .av-main-nav .menu-item-avia-special {
+    display: block;
+    margin-right: 20px;
+}
+
+.leader-home h2,
+.leader-home p {
+    line-height: 1em;
+}
+
+.responsive #top #wrap_all .leader-home .flex_column  {
+	margin-bottom: 0;
+}
+
+.event-meta p {
+    line-height: 1.2em;
+}
+
+.event-meta p i {
+    margin: 0 0 6px;
+}
+
+.responsive #top #wrap_all .band-call-out .band-card {
+	margin-bottom: 100px;
+}
+
+.main_color.arrow-down h2 {
+    text-align: left !important;
+}
+
+.avia-section-large .content,
+.avia-section-large .sidebar {
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+.av-fullwidth-hotspots .av-hotspot-container {
+    display: none;
+}
+
+.responsive .av-hotspot-fallback-tooltip {
+    display: none;
+}
+
+#footer,
+#socket {
+    text-align: center;
+}
+
+#socket .copyright {
+    float: none;
+}
+
+#socket ul.menu {
+	text-align: center;
+}
+
+#socket .sub_menu_socket li {
+    float: none;
+    display: inline-block;
+    margin: 10px;
+}
+
+.responsive #top #wrap_all .lineup-entry .flex_column,
+.responsive #top #wrap_all #footer .flex_column {
+	margin-bottom: 0;
+}
+
+#top #footer .widget ul#menu-footer-social {
+    text-align: center;
+}
+
+#top .widget_nav_menu #menu-footer-social li {
+    line-height: 1;
+    }
+    
+#top div div.woocommerce-message a.button {
+    position: relative;
+    margin: 0;
+    left: 0;
+}    
+    
+#top div.woocommerce-error, 
+#top div.woocommerce-message, 
+#top .woocommerce-info  {
+    padding: 10px;
+    }
+    
+    
+    
+    
+} /* END 600 */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
