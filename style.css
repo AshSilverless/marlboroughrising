@@ -401,7 +401,16 @@ body #scroll-top-link.avia_pop_class:hover {
     padding: 10px;
     }
     
-    
+#av-burger-menu-ul {
+    height: 100vh;
+    width: 100%;
+    vertical-align: inherit;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 !important;
+}    
     
     
 } /* END 600 */
