@@ -237,6 +237,21 @@ body .small-artists .column-top-margin {
     border: none;
 }
 
+.cart_dropdown_link > span {
+	color: white;
+}
+
+.dropdown_widget .quantity {
+    overflow: hidden;
+    color: #545454;
+}
+
+
+body#top .woocommerce-mini-cart__buttons.buttons .checkout {
+    background: #eb4d92;
+    color: white !important;
+}
+
 .woocommerce-tabs.wc-tabs-wrapper,
 .posted_in {
 	display: none !important;
@@ -247,8 +262,14 @@ body .small-artists .column-top-margin {
 }
 
 #top #header_main .av-cart-counter {
-    background-color: transparent;
-    color: #2A275B;
+    background-color: #ee7020;
+    color: #ffffff;
+    bottom: -10px;
+    left: -10px;
+    text-align: center;
+    padding: 0;
+    top: initial;
+    width: 17px;
 }
 
 .empty-cart-wrapper {
@@ -259,6 +280,11 @@ body .small-artists .column-top-margin {
     background-position: bottom center;
     margin-top: -100px;
 }
+
+.header_color .cart_dropdown .dropdown_widget li a, #top .header_color .avia_cart_buttons .button, #top .header_color .dropdown_widget .buttons .button, .header_color .cart_dropdown_first .cart_dropdown_link, #top .header_color p.order-info mark {
+    color: #4c4c4c;
+
+
 
 /* ===== FOOTER ===== */
 
