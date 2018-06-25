@@ -251,6 +251,14 @@ body .small-artists .column-top-margin {
     color: #2A275B;
 }
 
+.empty-cart-wrapper {
+    background-image: url(http://marlborough-rising.local/wp-content/uploads/2018/06/markus-spiske-78530-unsplash.jpg);
+    background-size: cover;
+    min-height: 80vh;
+    padding: 3em 0;
+    background-position: bottom center;
+}
+
 /* ===== FOOTER ===== */
 
 #footer {
