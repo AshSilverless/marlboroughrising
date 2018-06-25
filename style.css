@@ -411,7 +411,10 @@ body #scroll-top-link.avia_pop_class:hover {
     justify-content: center;
     padding: 0 !important;
 }    
-    
+
+.sub-hero h2 {
+    font-size: 3em;
+}    
     
 } /* END 600 */
 

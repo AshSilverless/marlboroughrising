@@ -6,3 +6,9 @@
 */
 
 add_theme_support('avia_template_builder_custom_css');
+
+add_filter( 'wc_empty_cart_message', 'custom_wc_empty_cart_message' );
+
+function custom_wc_empty_cart_message() {
+  return "Oh dear!  You don't have any tickets in your cart.";
+}
