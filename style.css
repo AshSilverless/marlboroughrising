@@ -281,9 +281,13 @@ body#top .woocommerce-mini-cart__buttons.buttons .checkout {
     border: none;
 }	
 
-.inner_product_header .alternate_color .avia-arrow {	
+.alternate_color .inner_product_header .avia-arrow {	
     background-color: #dad8d0;	
 	}
+
+#top .inner_product_header {
+    background-color: transparent;
+}
 	
 /* ===== FOOTER ===== */
 	#footerpadding:20px;
