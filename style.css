@@ -201,9 +201,12 @@ body .small-artists .column-top-margin {
 }
 
 .venue-section {
-    border-radius: 0px;
     background: #e8e5dc;
     padding: 1em;
+    margin-bottom: 0;
+    display: block;
+    width: 100% !important;
+    text-align: center;
 	}
 
 .venue-heading {
