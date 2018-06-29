@@ -217,6 +217,13 @@ body .small-artists .column-top-margin {
 	padding:0;
 }
 
+.section-heading {
+    text-align: center;
+    border-bottom: 3px solid #c3c0b7;
+    padding-bottom: .5em;
+    margin: 0;
+}
+
 /* ===== WOO ===== */
 .html_visible_cart .cart_dropdown {
 	right:-2px;
