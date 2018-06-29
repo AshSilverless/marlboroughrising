@@ -288,6 +288,19 @@ body#top .woocommerce-mini-cart__buttons.buttons .checkout {
 #top .inner_product_header {
     background-color: transparent;
 }
+
+.ticket-card h2 {
+    text-align: center;
+    color: #2b285a;
+    margin: 1em 0 0;
+    border-bottom: 3px solid #bbbab8;
+    padding-bottom: 10px;
+    }
+
+.ticket-card p {    
+    text-align: center;
+    margin: 10px 0;    	
+}
 	
 /* ===== FOOTER ===== */
 	#footerpadding:20px;
