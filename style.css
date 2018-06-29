@@ -231,8 +231,13 @@ body .small-artists .column-top-margin {
     display: inline-block;
     margin-left: 10px;
     border-radius: 3px;
+    transition: all .5s ease;
     }	
 
+.line-up-item a:hover {
+    background: #2b285a;
+    text-decoration: none;
+}
 
 /* ===== WOO ===== */
 .html_visible_cart .cart_dropdown {
