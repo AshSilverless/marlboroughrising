@@ -273,6 +273,18 @@ body#top .woocommerce-mini-cart__buttons.buttons .checkout {
 
 .header_color .cart_dropdown .dropdown_widget li a,#top .header_color .avia_cart_buttons .button,#top .header_color .dropdown_widget .buttons .button,.header_color .cart_dropdown_first .cart_dropdown_link,#top .header_color p.order-info mark {
 	color:#4c4c4c;
+	}
+	
+.alternate_color .inner_product {
+    border-radius: 3px;
+    background: transparent;
+    border: none;
+}	
+
+.inner_product_header .alternate_color .avia-arrow {	
+    background-color: #dad8d0;	
+	}
+	
 /* ===== FOOTER ===== */
 	#footerpadding:20px;
 	z-index:1;
