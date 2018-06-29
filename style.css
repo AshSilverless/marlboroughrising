@@ -200,6 +200,12 @@ body .small-artists .column-top-margin {
 	padding:3em 0 0;
 }
 
+.venue-section {
+    border-radius: 0px;
+    background: #e8e5dc;
+    padding: 1em;
+	}
+
 .venue-heading {
 	padding:1em 0 0;
 	min-height:0;
@@ -207,10 +213,10 @@ body .small-artists .column-top-margin {
 }
 
 .venue-heading h3 {
-	border-left:5px solid #bdbbb4;
-	padding-left:10px;
-	line-height:3em;
-	color:#656565;
+    border-bottom: 1px solid #bdbbb4;
+    line-height: 2em;
+    color: #656565;
+    text-align: center;
 }
 
 .lineup-entry.avia-section-small .content {
