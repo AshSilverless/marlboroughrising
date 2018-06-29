@@ -224,6 +224,16 @@ body .small-artists .column-top-margin {
     margin: 0;
 }
 
+.line-up-item a {
+    background: #eb4d92;
+    color: white;
+    padding: 3px 10px;
+    display: inline-block;
+    margin-left: 10px;
+    border-radius: 3px;
+    }	
+
+
 /* ===== WOO ===== */
 .html_visible_cart .cart_dropdown {
 	right:-2px;
@@ -300,7 +310,7 @@ body#top .woocommerce-mini-cart__buttons.buttons .checkout {
     text-align: center;
     color: #2b285a;
     margin: 1em 0 0;
-    border-bottom: 3px solid #bbbab8;
+    border-bottom: 1px solid #bbbab8;
     padding-bottom: 10px;
     }
 
