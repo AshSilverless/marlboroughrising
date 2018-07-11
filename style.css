@@ -249,6 +249,12 @@ body .small-artists .column-top-margin {
     color: white;
 }
 
+.line-up-item p:last-of-type {
+    font-size: 12px;
+    text-transform: uppercase;
+    margin: 0;
+    }
+
 /* ===== WOO ===== */
 .html_visible_cart .cart_dropdown {
 	right:-2px;
