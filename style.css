@@ -105,16 +105,20 @@ nav.main_menu .avia-menu.av_menu_icon_beside {
 }
 
 .leader-home h2 {
-	color:#fff;
-	margin:0;
-	font-size:20px;
-	border:none;
+    color: #252323;
+    margin: 0;
+    font-size: 34px;
+    border: none;
+    line-height: 1em;
+    margin-bottom: 17px;
 }
 
 .leader-home p {
-	font-size:36px;
-	color:#2A275B;
-	margin:15px 0;
+    font-size: 26px;
+    color: #636363;
+    width: 60%;
+    margin: 0 auto;
+    line-height: 1.1em;
 }
 
 .band-call-out h2 {
