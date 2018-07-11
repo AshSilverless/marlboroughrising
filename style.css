@@ -249,10 +249,11 @@ body .small-artists .column-top-margin {
     color: white;
 }
 
-.line-up-item p:last-of-type {
+.line-up-item p i {
     font-size: 12px;
     text-transform: uppercase;
     margin: 0;
+    font-style: normal;
     }
 
 /* ===== WOO ===== */
