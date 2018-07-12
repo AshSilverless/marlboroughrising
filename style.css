@@ -376,22 +376,33 @@ body#top .woocommerce-mini-cart__buttons.buttons .checkout {
     margin: 10px 0;    	
 }
 
+.ticket-price {
+	text-align: center;
+	}
+
 .ticket-price h3 {
     text-align: center;
     display: inline-block;
     color: #4182c5;
     font-size: 36px;
+    margin: 0;
     }
 
-.ticket-price h3 strong {
+#top .ticket-price h3 strong {
     font-size: 10px;
     display: inline-block;
     width: 0px;
     line-height: 10px;
     color: #9c9a94;
     }
-
-	
+    
+#top .ticket-price h6 {
+    color: #8e8c87;
+    font-weight: 100;
+    font-size: 13px;
+    display: block;
+    margin: 0 0 1em;
+    }	
 /* ===== FOOTER ===== */
 	#footerpadding:20px;
 	z-index:1;
