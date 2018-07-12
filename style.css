@@ -409,6 +409,17 @@ body #cookie-law-info-again {
     max-width: 1310px;
     margin: 0 auto;
     }
+
+.hr-short {
+    height: 1px;
+    line-height: 10px;
+    margin: 10px 0;
+    float: none;
+}
+
+.hr-short .hr-inner-style {
+    display: none;
+}
     
 /* ===== MQ ===== */
 @media only screen and (max-width: 600px) {
