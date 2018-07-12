@@ -434,6 +434,10 @@ body #cookie-law-info-again {
     transform: rotate(-90deg);
 }
 
+#footer .widget {
+    margin: 0;
+}
+
 /* ===== SPONSORS ===== */
 
 .sponsors {
@@ -460,7 +464,8 @@ body #cookie-law-info-again {
 .no-min-height.avia-section {
 	 min-height: 0 !important
 }
-    
+
+
 /* ===== MQ ===== */
 @media only screen and (max-width: 600px) {
 	#top .av_header_glassy.av_header_transparency .header_bg {
