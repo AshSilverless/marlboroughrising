@@ -187,7 +187,7 @@ nav.main_menu .avia-menu.av_menu_icon_beside {
     margin: -3px 0 2em;
     background: #599ead;
     display: inline-block;
-    padding: 5px 10px 5px 18px;
+    padding: 5px 10px 5px 15px;
     color: white;
     font-weight: 100;
     text-transform: uppercase;
@@ -197,7 +197,7 @@ nav.main_menu .avia-menu.av_menu_icon_beside {
 }
 
 .appearance h6:hover {
-    padding: 3px 10px 3px 18px;
+    padding: 5px 10px 5px 18px;
 }
 
 .appearance h6:before {
