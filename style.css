@@ -403,7 +403,13 @@ body #cookie-law-info-again {
     transform: rotate(-90deg);
 }
 
+/* ===== SPONSORS ===== */
 
+.spronsors {
+    max-width: 1310px;
+    margin: 0 auto;
+    }
+    
 /* ===== MQ ===== */
 @media only screen and (max-width: 600px) {
 	#top .av_header_glassy.av_header_transparency .header_bg {
