@@ -425,6 +425,9 @@ body #cookie-law-info-again {
 .hr-short .hr-inner-style {
     display: none;
 }
+ 
+ .no-min-height {
+	 min-height: 0 !important
     
 /* ===== MQ ===== */
 @media only screen and (max-width: 600px) {
