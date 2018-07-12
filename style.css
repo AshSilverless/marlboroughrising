@@ -396,6 +396,14 @@ body #scroll-top-link.avia_pop_class:hover {
 	border:3px solid #fff!important;
 }
 
+body #cookie-law-info-again {
+    bottom: 150px;
+    right: -68px;
+    display: block;
+    transform: rotate(-90deg);
+}
+
+
 /* ===== MQ ===== */
 @media only screen and (max-width: 600px) {
 	#top .av_header_glassy.av_header_transparency .header_bg {
