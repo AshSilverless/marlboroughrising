@@ -426,8 +426,9 @@ body #cookie-law-info-again {
     display: none;
 }
  
- .no-min-height {
+.no-min-height.avia-section {
 	 min-height: 0 !important
+}
     
 /* ===== MQ ===== */
 @media only screen and (max-width: 600px) {
