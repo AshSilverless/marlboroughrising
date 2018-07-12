@@ -389,6 +389,7 @@ body#top .woocommerce-mini-cart__buttons.buttons .checkout {
 
 #footer .widget img {
 	width:95px;
+	float:right;	
 }
 
 #top .widget_nav_menu #menu-footer-social li {
