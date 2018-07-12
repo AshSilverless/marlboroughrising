@@ -26,16 +26,13 @@ function custom_wc_empty_cart_message() {
   
 	</div>
 	</div>
-	
-	
-	
-	
-	
-	
-	
-	
+
 	<?php
-  
-  
-  
+ 
+}
+
+add_filter('woocommerce_sale_flash', 'vs_change_sale_content', 10, 3);
+function vs_change_sale_content($content, $post, $product){
+   $content = '<span class="onsale">'.__( 'On Sale', 'woocommerce' ).'</span>';
+   return $content;
 }
