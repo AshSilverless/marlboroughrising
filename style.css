@@ -410,6 +410,11 @@ body #cookie-law-info-again {
     margin: 0 auto;
     }
 
+.sponsors-minor {
+    max-width: 1000px;
+    margin: 0 auto;
+    }
+
 .hr-short {
     height: 1px;
     line-height: 10px;
