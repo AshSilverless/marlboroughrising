@@ -128,6 +128,15 @@ nav.main_menu .avia-menu.av_menu_icon_beside {
     line-height: 1.1em;
 }
 
+.leader-home .content {
+    background: #faba16;
+    margin-top: -3em;
+    position: relative;
+    z-index: 111;
+    border-bottom: 10px solid #cc9812;
+}
+
+
 .band-call-out h2 {
 	text-align:center;
 	color:#ED711F;
