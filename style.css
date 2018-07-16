@@ -543,6 +543,10 @@ body #cookie-law-info-again {
     margin: 0;
 }
 
+.copyright img {
+	width:140px;
+}	
+
 /* ===== SPONSORS ===== */
 
 .sponsors {
