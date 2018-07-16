@@ -101,7 +101,7 @@
 				<footer class='container_wrap socket_color' id='socket' <?php avia_markup_helper(array('context' => 'footer')); ?>>
                     <div class='container'>
 
-                        <span class='copyright'>&copy; Silverless <?php echo date("Y"); ?> | Creating and Growing Brands</span>
+                        <span class='copyright'><img src="http://marlboroughrising.com/wp-content/uploads/2018/07/Silverless-Logo_master_white.png"/></span>
 
                         <?php
                         	if(avia_get_option('footer_social', 'disabled') != "disabled")
