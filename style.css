@@ -506,7 +506,7 @@ body #cookie-law-info-again {
 }
 
 .sponsors .flex_cell:hover .hr-inner,
-.sponsors-minor .flex_cell .hr-inner {
+.sponsors-minor .flex_cell:hover .hr-inner {
     border-color: #4182c5 !important;
 }
 
