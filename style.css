@@ -133,7 +133,7 @@ nav.main_menu .avia-menu.av_menu_icon_beside {
     margin-top: -3em;
     position: relative;
     z-index: 111;
-    border-bottom: 10px solid #cc9812;
+    border-bottom: 10px solid #cc9812 !important;
 }
 
 .home .avia-layerslider {
