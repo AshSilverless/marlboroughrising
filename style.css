@@ -500,11 +500,13 @@ body #cookie-law-info-again {
 	 min-height: 0 !important
 }
 
-.sponsors .flex_cell .hr-inner {
+.sponsors .flex_cell .hr-inner,
+.sponsors-minor .flex_cell .hr-inner {
     transition: all .5s ease;
 }
 
-.sponsors .flex_cell:hover .hr-inner {
+.sponsors .flex_cell:hover .hr-inner,
+.sponsors-minor .flex_cell .hr-inner {
     border-color: #4182c5 !important;
 }
 
