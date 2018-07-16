@@ -20,22 +20,4 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit; // Exit if accessed directly
 }
 
-global $post, $product;
-
-?>
-<?php if ( $product->is_on_sale() ) : ?>
-
-<div class="ticket-price">
-	
-	<h3>
-<?php echo $product->get_price_html(); ?>		
-<strong>Early Bird Price*</strong>		
-	</h3>
-	
-	
-</div>
-
-
-<?php endif;
-
 /* Omit closing PHP tag at the end of PHP files to avoid "headers already sent" issues. */
