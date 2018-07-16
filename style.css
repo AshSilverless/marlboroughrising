@@ -461,6 +461,21 @@ body#top .woocommerce-mini-cart__buttons.buttons .checkout {
 .early-bird-date {
 	font-size: 12px;
 	}
+
+.ticket-meta p {
+    line-height: 24px;
+    display: inline-block;
+    }
+    
+.ticket-meta i {
+    color: #bdbab3;
+    font-size: 24px;
+    line-height: 24px;
+    display: inline-block;
+    vertical-align: bottom;
+    margin-right: 10px;
+    }	
+
     
 /* ===== FOOTER ===== */
 	#footerpadding:20px;
