@@ -25,6 +25,25 @@ global $post;
 $short_description = apply_filters( 'woocommerce_short_description', $post->post_excerpt );
 
 ?>
+
+global $post, $product;
+
+?>
+<?php if ( $product->is_on_sale() ) : ?>
+
+<div class="ticket-price">
+	
+	<h3>
+<?php echo $product->get_price_html(); ?>		
+<strong>Early Bird Price*</strong>		
+	</h3>
+	
+	
+</div>
+
+
+<?php endif;?>
+
 <div class="woocommerce-product-details__short-description">
 	<p class="event-time"><?php the_field('time'); ?></p>
 	<p class="event-date"><?php the_field('date'); ?></p>	
