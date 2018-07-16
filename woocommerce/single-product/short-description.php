@@ -20,16 +20,11 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit; // Exit if accessed directly.
 }
 
-global $post;
+global $post, $product;
 
 $short_description = apply_filters( 'woocommerce_short_description', $post->post_excerpt );
 
-?>
-
-global $post, $product;
-
-?>
-<?php if ( $product->is_on_sale() ) : ?>
+ if ( $product->is_on_sale() ) : ?>
 
 <div class="ticket-price">
 	
