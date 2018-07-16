@@ -11,7 +11,7 @@ Template: enfold
 
 /* ===== GLOBAL ===== */
 
-body {
+body p {
     text-align: justify;	
 }
 
@@ -600,7 +600,24 @@ body #cookie-law-info-again {
 	.leader-home h2,.leader-home p {
 		line-height:1em;
 	}
-	
+.leader-home h2 {
+    font-size: 24px;
+    }
+    	
+.leader-home p {
+    font-size: 18px;
+    }	
+
+#footer .widget img {
+    width: 95px;
+    float: none;
+}
+
+.sub-hero h2 {
+    font-size: 2em;
+    text-align: left;
+}
+    
 	.responsive #top #wrap_all .leader-home .flex_column {
 		margin-bottom:0;
 	}
