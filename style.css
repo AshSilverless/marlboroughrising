@@ -2,6 +2,13 @@
 Theme Name: Marlborough Rising
 Template: enfold
 */
+
+/* ===== OVER RIDES ===== */
+
+.avia_transform a:hover .image-overlay {
+    opacity: 0 !important;
+}
+
 /* ===== GLOBAL ===== */
 .sl-arrow-down {
 	position:relative;
