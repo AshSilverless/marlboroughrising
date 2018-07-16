@@ -438,7 +438,7 @@ body#top .woocommerce-mini-cart__buttons.buttons .checkout {
     
 /* ===== SINGLE PRODUCT ===== */    
     
-#top .ticket-price .price {
+#top .product .price {
 	display: none;
 	}
 	    
@@ -446,7 +446,7 @@ body#top .woocommerce-mini-cart__buttons.buttons .checkout {
 	text-align: left;
 	}
 	
-.ticket-price .amount {
+.ticket-price del .amount {
 	font-size: 14px;
 	}
 	
