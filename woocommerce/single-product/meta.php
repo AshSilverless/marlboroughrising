@@ -39,4 +39,4 @@ global $product;
 	<?php do_action( 'woocommerce_product_meta_end' ); ?>
 
 </div>
-<p>sfsdfsffsdf</p>
+<p class="early-bird-date">* Early bird prices available until 1st September</p>

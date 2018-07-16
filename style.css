@@ -457,6 +457,10 @@ body#top .woocommerce-mini-cart__buttons.buttons .checkout {
 #top .onsale {
     display: none;
 }	   
+
+.early-bird-date {
+	font-size: 12px;
+	}
     
 /* ===== FOOTER ===== */
 	#footerpadding:20px;
