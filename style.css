@@ -462,18 +462,21 @@ body#top .woocommerce-mini-cart__buttons.buttons .checkout {
 	font-size: 12px;
 	}
 
+.ticket-meta {
+    margin: 1em 0 2em;
+    }	
+
 .ticket-meta p {
-    line-height: 24px;
-    display: inline-block;
+    padding-left: 30px;
+    position: relative;
     }
     
 .ticket-meta i {
     color: #bdbab3;
-    font-size: 24px;
     line-height: 24px;
     display: inline-block;
-    vertical-align: bottom;
-    margin-right: 10px;
+    position: absolute;
+    left: 0;
     }	
 
     
