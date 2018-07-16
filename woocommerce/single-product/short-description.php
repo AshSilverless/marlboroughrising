@@ -40,10 +40,10 @@ $short_description = apply_filters( 'woocommerce_short_description', $post->post
 <?php endif;?>
 
 <div class="woocommerce-product-details__short-description">
-	<p class="event-time"><?php the_field('time'); ?></p>
-	<p class="event-date"><?php the_field('date'); ?></p>	
-	<p class="event-location"><?php the_field('location'); ?></p>	
-	<p class="event-info"><?php the_field('info'); ?></p>
+	<p class="event-time"><i class="fa fa-clock-o" aria-hidden="true"></i><?php the_field('time'); ?></p>
+	<p class="event-date"><i class="fa fa-calendar" aria-hidden="true"></i><?php the_field('date'); ?></p>	
+	<p class="event-location"><i class="fa fa-map-marker" aria-hidden="true"></i><?php the_field('location'); ?></p>	
+	<p class="event-info"><i class="fa fa-info" aria-hidden="true"></i><?php the_field('info'); ?></p>
 		
 </div>
 
