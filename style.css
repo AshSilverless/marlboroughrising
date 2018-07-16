@@ -11,10 +11,6 @@ Template: enfold
 
 /* ===== GLOBAL ===== */
 
-body p {
-    text-align: justify;	
-}
-
 .sl-arrow-down {
 	position:relative;
 }
