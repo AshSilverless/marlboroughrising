@@ -36,9 +36,6 @@ global $post, $product;
 </div>
 
 
-
-	<?php echo apply_filters( 'woocommerce_sale_flash', '<span class="onsale">' . esc_html__( 'Sale!', 'woocommerce' ) . '</span>', $post, $product ); ?>
-
 <?php endif;
 
 /* Omit closing PHP tag at the end of PHP files to avoid "headers already sent" issues. */
