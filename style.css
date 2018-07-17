@@ -272,6 +272,10 @@ body .small-artists .column-top-margin {
     color: #4182c5;
     }	
 
+.venue-section .alternate_color .hr-short .hr-inner {
+    border: 1px solid #bfbdb7;
+}
+
 .venue-heading {
     padding: 1em 0 3em;
 	min-height:0;
