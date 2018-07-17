@@ -57,7 +57,7 @@ blockquote {
 
 /* ===== HEADER ===== */
 .header_color .header_bg {
-	background-color:rgba(35,35,35,0.9);
+    background-color: rgba(21, 37, 46, 0.9);
 }
 
 #top .scroll-down-link {
@@ -544,6 +544,15 @@ body #cookie-law-info-again {
 .copyright img {
 	width:140px;
 }	
+
+#socket {
+    font-size: 11px;
+    margin-top: -1px;
+    z-index: 1;
+    background-color: #15242e;
+    border: none;
+}
+
 
 /* ===== SPONSORS ===== */
 
