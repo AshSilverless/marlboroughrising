@@ -490,8 +490,8 @@ body#top .woocommerce-mini-cart__buttons.buttons .checkout {
 }
 
 #footer .widget img {
-	width:95px;
-	float:right;	
+    width: 200px;
+    float: right;
 }
 
 #top .widget_nav_menu #menu-footer-social li {
@@ -502,9 +502,9 @@ body#top .woocommerce-mini-cart__buttons.buttons .checkout {
 	text-align:right;
 }
 
-#top #footer .widget ul#menu-footer-social {
+/* #top #footer .widget ul#menu-footer-social {
 	text-align:right;
-}
+}*/
 
 #scroll-top-link.avia_pop_class {
 	left:50%;
