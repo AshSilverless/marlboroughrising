@@ -477,9 +477,11 @@ body#top .woocommerce-mini-cart__buttons.buttons .checkout {
 
     
 /* ===== FOOTER ===== */
-	#footerpadding:20px;
-	z-index:1;
-}
+
+	#footer {
+		background-image:url('img/mr-footer-bg.jpg');
+		}
+
 
 #footer .widget {
 	padding:0;
@@ -647,7 +649,8 @@ body #cookie-law-info-again {
 		display:none;
 	}
 	
-	#footer,#socket {
+	#footer,
+	#socket {
 		text-align:center;
 	}
 	
