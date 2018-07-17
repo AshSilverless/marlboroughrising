@@ -478,10 +478,10 @@ body#top .woocommerce-mini-cart__buttons.buttons .checkout {
     
 /* ===== FOOTER ===== */
 
-	#footer {
-		background-image:url('img/mr-footer-bg.jpg');
-		}
-
+#footer {
+	background-image:url('img/mr-footer-bg.jpg');
+	padding: 15px 0 0px 0;
+}
 
 #footer .widget {
 	padding:0;
