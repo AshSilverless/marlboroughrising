@@ -44,7 +44,7 @@ $short_description = apply_filters( 'woocommerce_short_description', $post->post
 	<p class="event-date"><i class="fa fa-calendar" aria-hidden="true"></i><?php the_field('date'); ?></p>	
 	<p class="event-location"><i class="fa fa-map-marker" aria-hidden="true"></i><?php the_field('location'); ?></p>	
 
-<?php if (the_field('info')); ?>
+<?php if (the_field('info')): ?>
 	<p class="event-info"><i class="fa fa-info" aria-hidden="true"></i><?php the_field('info'); ?></p>
 <?php endif;?>		
 </div>
