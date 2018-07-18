@@ -479,6 +479,9 @@ body#top .woocommerce-mini-cart__buttons.buttons .checkout {
     left: 0;
     }	
 
+p.stock {
+	display: none !important;
+}
     
 /* ===== FOOTER ===== */
 
