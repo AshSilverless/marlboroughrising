@@ -289,6 +289,15 @@ body .small-artists .column-top-margin {
     text-align: center;
 }
 
+.venue-heading.stage-sponsor h3 {
+    padding-bottom: 15px;
+}
+
+.venue-section.stage-sponsor h6 {
+    margin-top: -25px;
+    margin-bottom: 25px;
+}
+
 .lineup-entry.avia-section-small .content {
 	padding:0;
 }
