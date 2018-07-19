@@ -9,6 +9,10 @@ Template: enfold
     opacity: 0 !important;
 }
 
+.av-siteloader {
+    display: none !important;
+}
+
 /* ===== GLOBAL ===== */
 
 .sl-arrow-down {
