@@ -13,6 +13,11 @@ Template: enfold
     display: none !important;
 }
 
+#top .av-siteloader-wrap {
+    background-color: #02091dcf;
+    }
+
+
 /* ===== GLOBAL ===== */
 
 .sl-arrow-down {
