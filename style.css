@@ -265,6 +265,11 @@ body .small-artists .column-top-margin {
 	margin-top:0;
 }
 
+.small-artists .avia-button-wrap {
+    float: left;
+    margin-right: 10px;
+}
+
 .date-heading {
 	padding:3em 0 0;
 }
