@@ -14,7 +14,11 @@ Template: enfold
 }
 
 #top .av-siteloader-wrap {
-    background-color: #02091dcf;
+    background-color: #02091df0;
+    background: -moz-radial-gradient(center, ellipse cover, rgba(0,0,0,0.72) 0%, rgba(0,0,0,1) 62%, rgba(0,0,0,1) 99%);
+    background: -webkit-radial-gradient(center, ellipse cover, rgba(0,0,0,0.72) 0%,rgba(0,0,0,1) 62%,rgba(0,0,0,1) 99%);
+    background: radial-gradient(ellipse at center, rgba(0,0,0,0.72) 0%,rgba(0,0,0,1) 62%,rgba(0,0,0,1) 99%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b8000000', endColorstr='#000000',GradientType=1 );
     }
 
 
