@@ -663,7 +663,8 @@ body #cookie-law-info-again {
     transition: .5s ease all;
 }
 
-.fourohfour a:hover {  
+.fourohfour a:hover {
+	color: white;  
 	text-decoration: none;
     border-bottom: 3px solid #4e98eb;
     }	
