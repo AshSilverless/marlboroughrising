@@ -625,6 +625,20 @@ body #cookie-law-info-again {
     border-color: #4182c5 !important;
 }
 
+/* ===== 404 ===== */
+
+.fourohfour {
+    background: #4a4a4a;
+    background-image: url(https://marlboroughrising.com/wp-content/uploads/2018/07/404-spinal.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 80vh;
+}
+
+
+
+
+
 
 /* ===== MQ ===== */
 @media only screen and (max-width: 600px) {
