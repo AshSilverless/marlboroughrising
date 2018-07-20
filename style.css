@@ -657,6 +657,18 @@ body #cookie-law-info-again {
     padding: 10px 20px;    
 }
 
+.fourohfour a {  
+    color: white;
+    border-bottom: 3px solid #eb4d92;
+    transition: .5s ease all;
+}
+
+.fourohfour a:hover {  
+	text-decoration: none;
+    border-bottom: 3px solid #4e98eb;
+    }	
+
+
 /* ===== MQ ===== */
 @media only screen and (max-width: 600px) {
 	#top .av_header_glassy.av_header_transparency .header_bg {
