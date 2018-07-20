@@ -19,7 +19,7 @@
 			
 			<div class='container'>
 
-<h1>Oh dear.  Looks like you've taken a wrong turn</h1>
+<h1>Oh dear.<br/>Looks like you've taken a wrong turn.</h1>
 
 <p>Best not to look them in the eye and head back to safety by <a href="<?php echo esc_url( home_url( '/' ) ); ?>">clicking here</a></p>
 
