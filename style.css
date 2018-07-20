@@ -633,12 +633,29 @@ body #cookie-law-info-again {
     background-size: cover;
     background-repeat: no-repeat;
     min-height: 80vh;
+    display: flex;
+    align-items: flex-end;
+    padding-bottom: 10vh;
+    background-position: center center;
+    text-align: center;
 }
 
-
-
-
-
+.fourohfour h1 {
+    color: white;
+    text-align: center;
+    text-shadow: 0 0 30px black;
+    text-transform: uppercase;
+    font-size: 3em;
+    }
+    
+.fourohfour p {      
+    color: #fdfdfd;
+    text-align: center;
+    font-size: 1.5em;
+    background: #52514da8;
+    display: inline-block;
+    padding: 10px 20px;    
+}
 
 /* ===== MQ ===== */
 @media only screen and (max-width: 600px) {
