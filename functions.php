@@ -52,5 +52,21 @@ function silverless_head(){
   src="https://www.facebook.com/tr?id=190286758053522&ev=PageView&noscript=1"
 /></noscript>
 <!-- End Facebook Pixel Code -->
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-119673617-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-119673617-1');
+</script>
+
+
+
+
+
+
 <?php
 }; 
