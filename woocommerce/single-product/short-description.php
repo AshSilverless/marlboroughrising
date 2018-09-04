@@ -45,7 +45,9 @@ $short_description = apply_filters( 'woocommerce_short_description', $post->post
 	
 <?php if ( get_field('artists_cb') ) { ?>
 <div class="artist">
-a	
+<p>Playing at the Castle & Ball Stage: <span><?php the_field('artists_cb'); ?></span></p>
+<p><em>and</em></p>
+<p>Playing at the St Peter's Stage: <span><?php the_field('artists_stp'); ?></span></p>
 </div>
 
 <?php } ?>	
