@@ -468,6 +468,15 @@ body#top .woocommerce-mini-cart__buttons.buttons .checkout {
     color: #4081c5;
 }
 
+.artist p span {
+    color: #4182c5;	
+}
+
+.artist p:nth-of-type(2) {
+	font-size: 12px;
+    line-height: 1em;
+}
+
     
 /* ===== SINGLE PRODUCT ===== */    
     
