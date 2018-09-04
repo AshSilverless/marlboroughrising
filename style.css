@@ -463,7 +463,7 @@ body#top .woocommerce-mini-cart__buttons.buttons .checkout {
     margin: 0 0 1em;
     }	
 
-.double-up-overview p-nth-of-type(2) strong {
+.double-up-overview p:nth-of-type(2) strong {
     color: #4081c5;
 }
 
