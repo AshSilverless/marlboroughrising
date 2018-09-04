@@ -42,6 +42,16 @@ $short_description = apply_filters( 'woocommerce_short_description', $post->post
 <div class="ticket-meta">
 	<p class="event-time"><i class="fa fa-clock-o" aria-hidden="true"></i><?php the_field('time'); ?></p>
 	<p class="event-date"><i class="fa fa-calendar" aria-hidden="true"></i><?php the_field('date'); ?></p>	
+	
+<?php if ( get_field('artists_cb') ) { ?>
+<div class="artist">
+a	
+</div>
+
+<?php } ?>	
+
+	
+	
 	<p class="event-location"><i class="fa fa-map-marker" aria-hidden="true"></i><?php the_field('location'); ?></p>	
 <?php if( get_field('info') ) { ?>
 	<p class="event-info"><i class="fa fa-info" aria-hidden="true"></i><?php the_field('info'); ?></p>
